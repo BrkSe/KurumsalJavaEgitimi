@@ -90,7 +90,7 @@ public class Ogrenci {
 
         this.ogrenciNo = ogrenciNo;
     }
-    
+
     public void ogrenciBilgileri(){
         System.out.println("Öğrenci Bilgileri Adı"+isim +" Soyad " + soyisim + " Okul Adı" + okulAdi + " Bölüm " +bolumu + " Yası  " + ogrenciYasi + " Numarası " + ogrenciNo  );
     }
