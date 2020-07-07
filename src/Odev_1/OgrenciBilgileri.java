@@ -9,14 +9,13 @@ public class OgrenciBilgileri {
     private int finalNotu;
     private String harfNotu;
 
-    private double sonuc;
 
-    public OgrenciBilgileri(String ad, int vize, int finalNotu, String harfNotu, double sonuc) {
+    public OgrenciBilgileri(String ad, int vize, int finalNotu, String harfNotu) {
         this.ad = ad;
         this.vize = vize;
         this.finalNotu = finalNotu;
         this.harfNotu = harfNotu;
-        this.sonuc = sonuc;
+
     }
 
     public OgrenciBilgileri() {
@@ -53,5 +52,4 @@ public class OgrenciBilgileri {
     public void setHarfNotu(String harfNotu) {
         this.harfNotu = harfNotu;
     }
-
 }

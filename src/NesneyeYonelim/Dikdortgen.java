@@ -15,4 +15,9 @@ public class Dikdortgen {
         return sonuc;
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
 }
