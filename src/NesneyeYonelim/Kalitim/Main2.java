@@ -3,11 +3,10 @@ package NesneyeYonelim.Kalitim;
 /**
  * Created by hasanburakkutbay on 7.07.2020.
  */
-public class OgrenciMain {
+public class Main2 {
     public static void main(String[] args) {
-        Ogrenci ogrenci = new Ogrenci();
+        Ogrenci2 ogrenci2 = new Ogrenci2("C", "d", 2, 123);
 
-
-        System.out.println(ogrenci.toString());
+        System.out.println(ogrenci2.getKimlikBilgileri());
     }
 }

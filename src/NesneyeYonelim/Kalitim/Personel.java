@@ -3,24 +3,22 @@ package NesneyeYonelim.Kalitim;
 /**
  * Created by hasanburakkutbay on 7.07.2020.
  */
-public class Ogrenci {
+public class Personel {
     private String isim;
     private String soyisim;
     private int yasi;
-    private int ogrenciNo;
 
-    public Ogrenci() {
+
+    public Personel() {
         isim = "İsim Girilmedi";
         soyisim = "Soyisim Girilmedi";
         yasi = 0;
-        ogrenciNo = 0;
     }
 
-    public Ogrenci(String isim, String soyisim, int yasi, int ogrenciNo) {
+    public Personel(String isim, String soyisim, int yasi) {
         this.isim = isim;
         this.soyisim = soyisim;
         this.yasi = yasi;
-        this.ogrenciNo = ogrenciNo;
     }
 
     public String getIsim() {
@@ -47,25 +45,17 @@ public class Ogrenci {
         this.yasi = yasi;
     }
 
-    public int getOgrenciNo() {
-        return ogrenciNo;
-    }
-
-    public void setOgrenciNo(int ogrenciNo) {
-        this.ogrenciNo = ogrenciNo;
-    }
-
     public String getKimlikBilgileri() {
-        return "Kimlik Bilgileri İsmi : " + isim + " Soyisim: " + soyisim + "Yasi : " + yasi + " Ogrenci No: " + ogrenciNo;
+        return "Kimlik Bilgileri İsmi : " + isim + " Soyisim: " + soyisim + "Yasi : " + yasi;
     }
 
     @Override
     public String toString() {
-        return "Ogrenci{" +
+        return "Personel{" +
                 "isim='" + isim + '\'' +
                 ", soyisim='" + soyisim + '\'' +
                 ", yasi=" + yasi +
-                ", ogrenciNo=" + ogrenciNo +
                 '}';
     }
+
 }
