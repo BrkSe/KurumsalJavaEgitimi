@@ -1,4 +1,4 @@
-package Odev_1;
+package NesneyeYonelim._01_Giris.Odev_1;
 
 import java.util.ArrayList;
 import java.util.List;

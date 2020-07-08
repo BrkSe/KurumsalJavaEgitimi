@@ -1,21 +1,11 @@
-package NesneyeYonelim;
+package NesneyeYonelim._01_Giris;
 
 /**
  * Created by hasanburakkutbay on 3.07.2020.
  */
-public class DikdortgenMetotlaraNesneAtama {
+public class DikdortgenPrivate {
     private double en;
     private double boy;
-
-
-    public double DikdortgenAlan() {
-        return this.boy * this.en;
-    }
-
-    public DikdortgenMetotlaraNesneAtama(double en, double boy) {
-        this.en = en;
-        this.boy = boy;
-    }
 
     public double getEn() {
         return en;
@@ -30,8 +20,19 @@ public class DikdortgenMetotlaraNesneAtama {
     }
 
     public void setBoy(double boy) {
-        this.boy = boy;
+        if (boy>0){
+            this.boy = boy;
+        }
+        else   {
+            this.boy=0;
+        }
+
     }
 
 
+    public double dikdortgenHesapla(){
+        double sonuc=en*boy;
+
+        return sonuc;
+    }
 }

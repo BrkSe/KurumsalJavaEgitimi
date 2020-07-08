@@ -1,8 +1,6 @@
-package NesneyeYonelim;
+package NesneyeYonelim._01_Giris;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 

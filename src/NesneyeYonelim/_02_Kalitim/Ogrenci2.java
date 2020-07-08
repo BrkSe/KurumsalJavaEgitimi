@@ -1,4 +1,4 @@
-package NesneyeYonelim.Kalitim;
+package NesneyeYonelim._02_Kalitim;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package NesneyeYonelim.Kalitim;
+package NesneyeYonelim._02_Kalitim;
 
 /**
  * Created by hasanburakkutbay on 7.07.2020.

@@ -1,6 +1,4 @@
-package NesneyeYonelim;
-
-import jdk.nashorn.internal.runtime.Context;
+package NesneyeYonelim._01_Giris;
 
 /**
  * Created by hasanburakkutbay on 3.07.2020.
