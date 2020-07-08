@@ -1,24 +1,26 @@
-package NesneyeYonelim.Kalitim;
+package NesneyeYonelim._02_Kalitim;
 
 /**
  * Created by hasanburakkutbay on 7.07.2020.
  */
-public class Personel {
+public class Ogrenci {
     private String isim;
     private String soyisim;
     private int yasi;
+    private int ogrenciNo;
 
-
-    public Personel() {
+    public Ogrenci() {
         isim = "İsim Girilmedi";
         soyisim = "Soyisim Girilmedi";
         yasi = 0;
+        ogrenciNo = 0;
     }
 
-    public Personel(String isim, String soyisim, int yasi) {
+    public Ogrenci(String isim, String soyisim, int yasi, int ogrenciNo) {
         this.isim = isim;
         this.soyisim = soyisim;
         this.yasi = yasi;
+        this.ogrenciNo = ogrenciNo;
     }
 
     public String getIsim() {
@@ -45,17 +47,25 @@ public class Personel {
         this.yasi = yasi;
     }
 
+    public int getOgrenciNo() {
+        return ogrenciNo;
+    }
+
+    public void setOgrenciNo(int ogrenciNo) {
+        this.ogrenciNo = ogrenciNo;
+    }
+
     public String getKimlikBilgileri() {
-        return "Kimlik Bilgileri İsmi : " + isim + " Soyisim: " + soyisim + "Yasi : " + yasi;
+        return "Kimlik Bilgileri İsmi : " + isim + " Soyisim: " + soyisim + "Yasi : " + yasi + " Ogrenci No: " + ogrenciNo;
     }
 
     @Override
     public String toString() {
-        return "Personel{" +
+        return "Ogrenci{" +
                 "isim='" + isim + '\'' +
                 ", soyisim='" + soyisim + '\'' +
                 ", yasi=" + yasi +
+                ", ogrenciNo=" + ogrenciNo +
                 '}';
     }
-
 }

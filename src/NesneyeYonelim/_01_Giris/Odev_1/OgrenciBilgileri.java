@@ -1,4 +1,4 @@
-package Odev_1;
+package NesneyeYonelim._01_Giris.Odev_1;
 
 /**
  * Created by hasanburakkutbay on 7.07.2020.
