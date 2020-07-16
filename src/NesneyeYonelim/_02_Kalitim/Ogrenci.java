@@ -44,6 +44,7 @@ public class Ogrenci {
     }
 
     public void setYasi(int yasi) {
+
         this.yasi = yasi;
     }
 
